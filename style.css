@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --body-font: 'Open Sans', sans-serif;
+    --heading-font: 'Poppins', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 4% 4%;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
