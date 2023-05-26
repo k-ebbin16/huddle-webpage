@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@700&display=swap');
 
 
 * {
@@ -22,7 +22,15 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     padding: 5% 7%;
+    font-family: var(--body-font);
 }
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+}
+
+
 
 /* HEADER */
 
@@ -42,12 +50,52 @@ header img {
 header button {
     max-width: 30%;
     height: 3.5vh;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0 5%;
     background-color: #fff;
     border: 2px solid var(--pink);
     border-radius: 2vh;
     color: var(--pink);
+    box-shadow: none;
+}
+
+
+/* HERO-SECTION */
+
+.hero {
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+}
+
+.hero p {
+    margin: 7% 0 12% 0;
+    max-width: 97%;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+button {
+    width: 57%;
+    height: 5vh;
+    padding: 0 5%;
+    background-color: var(--pink);
+    border: 0;
+    outline: none;
+    border-radius: 3vh;
+    color: #fff;
+    box-shadow: 1px 1px 10px 1px #00000025;
+}
+
+.hero img {
+    margin: 25% 0;
+    width: 100%;
 }
 
 @media only screen and (min-width: 800px) {
