@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +20,6 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    padding: 5% 7%;
     font-family: var(--body-font);
 }
 
@@ -39,6 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5% 7%;
 }
 
 header img {
@@ -67,6 +66,7 @@ header button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5% 7%;
 }
 
 .hero h1 {
@@ -105,21 +105,55 @@ button {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 30%;
 }
 
-.stats .stat-data {
-    margin: 0 20%;
-}
-
-.stats .stat-data .stat-text {
+.stats div .stat-text {
     text-align: center;
 }
 
-.stats .stat-data .stat-text p {
+.stats div .stat-text p {
     font-size: 3.5rem;
     font-weight: 700;
 }
+
+
+/* GROW-SECTION */
+
+.grow-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.grow-section #bg-section-top-mobile-1,
+.grow-section #bg-section-bottom-mobile-1 {
+    width: 100%;
+}
+
+.grow-section .grow {
+    width: 100%;
+    background-color: var(--very-pale-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 18% 6% 10%;
+}
+
+.grow-section .grow #illustration-grow-together {
+    width: 80%;
+}
+
+.grow-section .grow h2 {
+    margin: 15% 0 5%;
+    font-size: 1.2rem
+}
+
+.grow-section .grow p {
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+
 
 @media only screen and (min-width: 800px) {
     body {
