@@ -117,7 +117,7 @@ button {
 }
 
 
-/* GROW-SECTION */
+/* GROW-SECTION and FLOWING-SECTION */
 
 .grow-section {
     display: flex;
@@ -129,7 +129,8 @@ button {
     width: 100%;
 }
 
-.grow-section .grow {
+.grow-section .grow,
+.flowing {
     width: 100%;
     background-color: var(--very-pale-blue);
     display: flex;
@@ -140,19 +141,28 @@ button {
     padding: 18% 6% 10%;
 }
 
-.grow-section .grow #illustration-grow-together {
+.flowing {
+    background-color: #fff;
+    margin: 10% 0 20%;
+}
+
+.grow-section .grow #illustration-grow-together,
+.flowing #illustration-flowing-conversation {
     width: 80%;
 }
 
-.grow-section .grow h2 {
-    margin: 15% 0 5%;
+.grow-section .grow h2,
+.flowing h2 {
+    margin: 20% 0 5%;
     font-size: 1.2rem
 }
 
-.grow-section .grow p {
+.grow-section .grow p,
+.flowing p {
     font-size: 0.88rem;
     font-weight: 500;
 }
+
 
 
 @media only screen and (min-width: 800px) {
