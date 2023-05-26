@@ -31,7 +31,6 @@ h2 {
 }
 
 
-
 /* HEADER */
 
 header {
@@ -96,6 +95,30 @@ button {
 .hero img {
     margin: 25% 0;
     width: 100%;
+}
+
+/* STATS-SECTION */
+
+.stats {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30%;
+}
+
+.stats .stat-data {
+    margin: 0 20%;
+}
+
+.stats .stat-data .stat-text {
+    text-align: center;
+}
+
+.stats .stat-data .stat-text p {
+    font-size: 3.5rem;
+    font-weight: 700;
 }
 
 @media only screen and (min-width: 800px) {
