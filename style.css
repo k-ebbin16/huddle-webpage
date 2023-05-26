@@ -117,19 +117,23 @@ button {
 }
 
 
-/* GROW-SECTION and FLOWING-SECTION */
+/* GROW-SECTION and FLOWING-SECTION and YOUR-USERS-SECTION*/
 
-.grow-section {
+.grow-section,
+.your-users-section {
     display: flex;
     flex-direction: column;
 }
 
 .grow-section #bg-section-top-mobile-1,
-.grow-section #bg-section-bottom-mobile-1 {
+.grow-section #bg-section-bottom-mobile-1
+.your-users-section #bg-section-top-mobile-2,
+.your-users-section #bg-section-bottom-mobile-2 {
     width: 100%;
 }
 
 .grow-section .grow,
+.your-users-section .users,
 .flowing {
     width: 100%;
     background-color: var(--very-pale-blue);
@@ -138,7 +142,7 @@ button {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 18% 6% 10%;
+    padding: 18% 6% 18%;
 }
 
 .flowing {
@@ -147,21 +151,26 @@ button {
 }
 
 .grow-section .grow #illustration-grow-together,
+.your-users-section .users #illustration-your-users,
 .flowing #illustration-flowing-conversation {
     width: 80%;
 }
 
 .grow-section .grow h2,
+.your-users-section .users h2,
 .flowing h2 {
     margin: 20% 0 5%;
     font-size: 1.2rem
 }
 
 .grow-section .grow p,
+.your-users-section .users p,
 .flowing p {
     font-size: 0.88rem;
     font-weight: 500;
 }
+
+
 
 
 
