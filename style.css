@@ -10,20 +10,64 @@
 :root {
     --body-font: 'Open Sans', sans-serif;
     --heading-font: 'Poppins', sans-serif;
+    --pink: hsl(322, 100%, 66%);
+    --light-pink: hsl(321, 100%, 78%);
+    --light-red: hsl(0, 100%, 63%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --very-pale-blue: hsl(207, 100%, 98%);
 }
 
 body {
-    max-width: 1440px;
+    max-width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    padding: 4% 4%;
+    padding: 5% 7%;
 }
 
 /* HEADER */
 
 header {
     width: 100%;
+    max-height: 10%;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+}
+
+header img {
+    max-width: 32%;
+    max-height: 2.5vh;
+}
+
+header button {
+    max-width: 30%;
+    height: 3.5vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #fff;
+    border: 2px solid var(--pink);
+    border-radius: 2vh;
+    color: var(--pink);
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        padding: 3% 5%;
+    }
+
+    header {
+        max-height: 8%;
+    }
+
+    header button {
+        max-width: 17%;
+        height: 3.8vh;
+        font-size: 1rem;
+        padding: 0 3%;
+    }
+
+    header img {
+        max-width: 35%;
+        max-height: 4vh;
+    }
 }
