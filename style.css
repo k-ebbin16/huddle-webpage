@@ -146,6 +146,12 @@ button {
     color: var(--pink);
     font-size: 1rem;
     cursor: pointer;
+    transition: box-shadow 500ms ease;
+}
+
+header >
+button:hover {
+    box-shadow: 1px 1px 10px 1.5px #00000025;
 }
 /* //////////////////////////////////////////////////////////////////////////////// */
 
