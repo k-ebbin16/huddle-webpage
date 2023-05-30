@@ -1,0 +1,118 @@
+body {
+
+    .container(flex-column) {
+
+        header(flex-row) {
+            .logo & #btn-header
+        }
+
+        main(flex-column) {
+
+            sec.hero(flex-column) {
+
+                .hero-content(flex-column) {
+
+                    .hero-content-col-1(flex-column) {
+                        h1(global) & p.para & .btn(global)
+                    }
+                    
+                    .hero-content-col-2 {
+                        img(mockups)
+                    }
+
+                }
+
+                .hero-stats(flex-column) {
+
+                    .stats-sub(flex-column) {
+                        img(communities)
+                        h2
+                        p
+                    }
+
+                    .stats-sub(flex-column) {
+                        img(messages)
+                        h2
+                        p
+                    }
+
+                }
+
+            }
+
+            sec.content(flex-column) {
+
+                .grow,
+                .your-users(flex-column) {
+                    img
+                    h3
+                    p.para
+                }
+
+                .flowing(flex-column) {
+                    img
+                    h3
+                    p.para
+                }
+
+                .ready(flex-column) {
+                    h1(global)
+                    .btn(blobal)
+                }
+
+            }
+
+        }
+
+        footer(flex-column) {
+
+            img
+
+            .footer-container(flex-column) {
+
+                .newsletter(flex-column) {
+
+                    h2
+                    p
+                    
+                    .email{flex-column} {
+                        input#email-box
+                        .btn(altered)
+                    }
+
+                }
+
+                .huddle(flex-column) {
+
+                    img(logo)
+                    p
+
+                    .contact(flex-row) {
+
+                        .phone {
+                            img(phone)
+                            p
+                        }
+
+                        .mail {
+                            img(mail)
+                            p
+                        }
+
+                    }
+
+                    .social-media(flex-row) {
+                        img(facebook)
+                        img(insta)
+                        img(twitter)
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

@@ -1,0 +1,600 @@
+@media screen and (max-width: 1200px) {
+    .para {
+        font-size: .95rem;
+    }
+
+    main >
+    .hero >
+    .hero-content >
+    .hero-content-col-1 >
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .btn {
+        max-width: 20em;
+        padding: 1em 3em;
+        border-radius: 2rem;
+        font-size: .9rem;
+    }
+
+    main >
+    .hero >
+    .hero-stats >
+    .stats-sub >
+    h2{
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    footer >
+    .footer-container >
+    .newsletter >
+    p,
+
+    footer >
+    .footer-container >
+    .huddle >
+    p {
+        max-width: 80%;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    header >
+    img,
+
+    footer >
+    .footer-container >
+    .huddle >
+    img{
+        scale: 0.85;
+    }
+
+
+    main >
+    .hero >
+    .hero-content >
+    .hero-content-col-1 >
+    h1 {
+        font-size: 2.2rem;
+        max-width: 75%;
+    }
+
+    .para {
+        font-size: .9rem;
+        max-width: 50%;
+    }
+
+    main >
+    .hero >
+    .hero-stats >
+    .stats-sub >
+    h2{
+        font-size: 3.5rem;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items >
+    .grow-text >
+    h2,
+
+    main >
+    .content>
+    .your-users >
+    .users-items >
+    .users-text >
+    h2,
+
+    main >
+    .content >
+    .flowing >
+    .flowing-text >
+    h2,
+
+    main >
+    .content >
+    .ready >
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: .5em;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items >
+    .grow-text >
+    .para,
+
+    main >
+    .content >
+    .your-users >
+    .users-items >
+    .users-text >
+    .para {
+        max-width: 90%;
+    }
+
+    main >
+    .content >
+    .flowing >
+    .flowing-text >
+    .para {
+        max-width: 95%;
+    }
+
+    footer >
+    .footer-container {
+        padding: 5em 5em;
+        gap: 20vw;
+        color: #fff;
+        font-size: .8rem;
+    }
+
+    footer >
+    .footer-container >
+    .newsletter >
+    p,
+
+    footer >
+    .footer-container >
+    .huddle >
+    p {
+        max-width: 100%;
+    }
+
+    footer >
+    .footer-container >
+    .newsletter >
+    .email {
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    footer >
+    .footer-container >
+    .newsletter >
+    .email >
+    input {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10vh;
+        width: 100%;
+    }
+
+    main >
+    .hero >
+    .hero-content >
+    .hero-content-col-1 >
+    h1 {
+        font-size: 2rem;
+    }
+
+    main >
+    .hero >
+    .hero-stats {
+        flex-direction: column;
+        align-items: center;
+        gap: 10vh;
+    }
+
+    main >
+    .hero >
+    .hero-stats >
+    .stats-sub >
+    h2{
+        font-size: 4rem;
+    }
+
+    .para {
+        font-size: .8rem;
+        max-width: 56%;
+    }
+
+    main >
+    .content {
+        gap: 10vh;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items,
+
+    main >
+    .content >
+    .your-users >
+    .users-items,
+
+    main >
+    .content >
+    .flowing {
+        padding: 1em 2em;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    main >
+    .content>
+    .your-users >
+    .users-items >
+    img {
+        width: 55%;
+    }
+
+    main >
+    .content>
+    .flowing >
+    img {
+        width: 50%;
+        margin-right: 10vw;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items >
+    .grow-text >
+    h2,
+
+    main >
+    .content>
+    .your-users >
+    .users-items >
+    .users-text >
+    h2,
+
+    main >
+    .content >
+    .flowing >
+    .flowing-text >
+    h2,
+
+    main >
+    .content >
+    .ready >
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: 1em;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items >
+    .grow-text >
+    .para,
+
+    main >
+    .content >
+    .your-users >
+    .users-items >
+    .users-text >
+    .para {
+        font-size: .8rem;
+        max-width: 95%;
+    }
+
+    footer >
+    .footer-container {
+        padding: 5em 3em;
+        gap: 10vw;
+        font-size: .8rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        padding-top: 1em;
+    }
+
+    header {
+        margin: .2em auto;
+    }
+
+    header >
+    button {
+        margin: .2em 0;
+        padding: .25em 1em;
+        font-size: .9rem;
+    }
+
+    header >
+    img,
+
+    footer >
+    .footer-container >
+    .huddle >
+    img{
+        scale: 0.75;
+    }
+
+    main >
+    .hero >
+    .hero-content >
+    .hero-content-col-1 >
+    h1 {
+        font-size: 1.8rem;
+        max-width: 100%;
+    }
+
+    .para {
+        font-size: .8rem;
+        max-width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    
+    main >
+    .content >
+    .grow >
+    .grow-items,
+
+    main >
+    .content >
+    .your-users >
+    .users-items,
+
+    main >
+    .content >
+    .flowing {
+        gap: 6vh;
+        padding: 3em 3em;
+        flex-direction: column;
+    }
+
+    main >
+    .content >
+    .flowing {
+        flex-direction: column-reverse;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items >
+    img,
+
+    main >
+    .content>
+    .your-users >
+    .users-items >
+    img {
+        width: 85%;
+    }
+
+    main >
+    .content>
+    .flowing >
+    img {
+        width: 90%;
+        margin: 0;
+    }
+    
+    main
+    .content >
+    .grow >
+    .grow-items >
+    .grow-text,
+
+    main >
+    .content>
+    .your-users >
+    .users-items >
+    .users-text, 
+
+    main >
+    .content>
+    .flowing >
+    .flowing-text {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items >
+    .grow-text >
+    h2,
+
+    main >
+    .content>
+    .your-users >
+    .users-items >
+    .users-text >
+    h2,
+
+    main >
+    .content >
+    .flowing >
+    .flowing-text >
+    h2,
+
+    main >
+    .content >
+    .ready >
+    h2 {
+        font-size: 1.1rem;
+        margin-bottom: 1em;
+    }
+
+    footer >
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5em 2em;
+        gap: 20vh;
+        color: #fff;
+        font-size: .8rem;
+    }
+
+    footer >
+    .footer-container >
+    .huddle >
+    img {
+        scale: 1;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+
+    .container {
+        padding-top: .8em;
+        gap: 12vh;
+    }
+
+    header {
+        width: 90%;
+        margin: .3em auto;
+    }
+
+    header >
+    img {
+        scale: .65;
+    }
+
+    main >
+    .hero >
+    .hero-content {
+        gap: 10vh;
+    }
+
+    main >
+    .hero >
+    .hero-content >
+    .hero-content-col-1 >
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .para {
+        font-size: .8rem;
+        max-width: 95%;
+    }
+
+    main >
+    .content {
+        gap: 5vh;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items >
+    img,
+
+    main >
+    .content>
+    .your-users >
+    .users-items >
+    img,
+    
+    main >
+    .content>
+    .flowing >
+    img {
+        width: 100%;
+        margin: 0;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items,
+
+    main >
+    .content >
+    .your-users >
+    .users-items,
+
+    main >
+    .content >
+    .flowing {
+        padding: 3em 2em;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items >
+    .grow-text,
+
+    main >
+    .content>
+    .your-users >
+    .users-items >
+    .users-text, 
+
+    main >
+    .content>
+    .flowing >
+    .flowing-text {
+        width: 100%;
+    }
+
+    main >
+    .content >
+    .grow >
+    .grow-items >
+    .grow-text >
+    h2,
+
+    main >
+    .content>
+    .your-users >
+    .users-items >
+    .users-text >
+    h2,
+
+    main >
+    .content >
+    .flowing >
+    .flowing-text >
+    h2,
+
+    main >
+    .content >
+    .ready >
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: 1em;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    header {
+        width: 95%;
+    }
+
+    header >
+    button {
+        font-size: .8rem;
+    }
+}
+
